@@ -17,11 +17,21 @@
             "role": "Creator"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/cultureai/pragmarx-ia-collection.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/cultureai/pragmarx-ia-arr.git"
+        }
+    ],
     "require": {
         "php": ">=7.0",
-        "pragmarx/ia-collection": "~5.0|~6.0|~7.0",
+        "pragmarx/ia-collection": "dev-master",
         "pragmarx/ia-str": "~5.0|~6.0|~7.0",
-        "pragmarx/ia-arr": "~5.0|~6.0|~7.0"
+        "pragmarx/ia-arr": "dev-master"
     },
     "require-dev": {
         "mockery/mockery": "~1.0",
